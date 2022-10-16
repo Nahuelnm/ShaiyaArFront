@@ -1,42 +1,32 @@
 <template>
 <div id="body">
- <div id="registro">
-    <button>Registrarse!</button> 
-    <button>Iniciar sesión</button> 
+  <div id="bar">
+    <registerBar msg="registerBar"/>
   </div>
   <div id="banner">
     <img alt="Vue logo" src="./assets/logo.png" id="logo">    
   </div>
   <div id="bar">
-  <table id="tabla">
-  <tr id="container">
-    <th></th>
-    <th></th>
-    <th id="comunity">  COMUNIDAD</th>
-    <th id="about"> ACERCA DE SHAIYA</th>
-    <th id="multimedia">  MULTIMEDIA</th>
-    <th id="store"> TIENDA</th>
-    <th id="services">  SERVICIOS GM</th>
-    <th></th>
-    <th></th>
-    <th></th>
-    <th id="download">  DESCARGA</th>
-  </tr>
-</table>
+    <navBar msg="navBar"/>
   </div>
-  <div id="components">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="components">    
+    <HelloWorld msg="Welcome to Your Vue.js App"/>   
   </div>
+  <socialBar msg="socialBar"/>
 </div>
 </template>
-
 <script>
-import HelloWorld from './components/Home.vue'
-
+import HelloWorld from './components/Home.vue';
+import registerBar from './components/registerBar.vue';
+import navBar from './components/navBar.vue';
+import socialBar from './components/socialBar'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    navBar,
+    registerBar,
+    socialBar
   }
 }
 </script>
@@ -62,28 +52,6 @@ img{
   margin-top:50px;
   width: 100%;
 }
-#tabla{
-  width: 85%;
-  margin-top: 10px;
-  padding: 0;
-  margin-left: 200px;
-  line-height: 60px;
-  color: white;
-  font-size: 14px;
-  display: flex;
-  text-align: left;
-  justify-content: left;
-  border-spacing: 32px;
-  border-collapse: separate;
-  background: url(./assets/frame-header.png);
-  background-repeat: no-repeat;
-}
-#download{
-  color: black;
-  font-size: 18px;
-  text-align: right;
-}
-
 #body{
  background: url(./assets/background.jpg);
  width: 100%;
@@ -91,14 +59,20 @@ img{
  color: black;
  background-repeat: no-repeat;
  background-color:black;
+ border-radius: 10px;
 }
 #registro{
   text-align: right;
+  border-radius: 10px;
 }
 #components{
-  margin-left: 180px;
+  margin-top: 20px;
+  margin-left: 85px;
   background-color: aliceblue;
-  opacity: 0.8;
-  width: 80%;
+  opacity: 0.9;
+  width: 90%;
+  border-radius: 10px;
+  text-align: left;
+  
 }
 </style>
