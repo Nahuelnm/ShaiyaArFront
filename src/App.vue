@@ -55,17 +55,18 @@ img{
 }
 #registro{
   height: 45px;
-  background-color: rgb(79, 39, 189);
+  background-color: rgb(27, 75, 172);
   justify-content: center;
 }
 #banner{
+  margin-top:50px;
   width: 100%;
 }
 #tabla{
-  width: 100%;
+  width: 85%;
   margin-top: 10px;
   padding: 0;
-  margin-left: 250px;
+  margin-left: 200px;
   line-height: 60px;
   color: white;
   font-size: 14px;
@@ -84,11 +85,12 @@ img{
 }
 
 #body{
- margin-left: 80px;
  background: url(./assets/background.jpg);
  width: 100%;
  height: 100%;
  color: black;
+ background-repeat: no-repeat;
+ background-color:black;
 }
 #registro{
   text-align: right;
