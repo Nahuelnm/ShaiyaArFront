@@ -67,10 +67,11 @@ img{
 }
 #components{
   margin-top: 20px;
-  margin-left: 85px;
-  background-color: aliceblue;
+  margin-left: 350px;
+  background-color: rgb(34, 25, 15);
+  color: white;
   opacity: 0.9;
-  width: 90%;
+  width: 62%;
   border-radius: 10px;
   text-align: left;
   

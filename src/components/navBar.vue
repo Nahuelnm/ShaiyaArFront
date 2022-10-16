@@ -28,10 +28,10 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   #tabla{
-    width: 85%;
+    width: 90%;
     margin-top: 10px;
     padding: 0;
-    margin-left: 200px;
+    margin-left: 350px;
     line-height: 60px;
     color: white;
     font-size: 14px;
