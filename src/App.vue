@@ -6,7 +6,7 @@
   <div id="banner">
     <img alt="Vue logo" src="./assets/logo.png" id="logo">    
   </div>
-  <div id="bar">
+  <div id="navBar">
     <navBar msg="navBar"/>
   </div>
   <div id="components">    
@@ -27,6 +27,9 @@ export default {
     navBar,
     registerBar,
     socialBar
+  },
+  mounted(){
+    document.title = "Shaiya-Free MMORPG";
   }
 }
 </script>
@@ -54,6 +57,7 @@ img{
 }
 #body{
  background: url(./assets/background.jpg);
+ background-size: 100% auto;
  width: 100%;
  height: 100%;
  color: black;
@@ -67,13 +71,15 @@ img{
 }
 #components{
   margin-top: 20px;
-  margin-left: 350px;
-  background-color: rgb(34, 25, 15);
+  margin-left: 20%;
   color: white;
-  opacity: 0.9;
-  width: 62%;
+  opacity: 1;
+  width: 55%;
   border-radius: 10px;
   text-align: left;
   
+}
+#bar{
+      background-size: 61% auto;
 }
 </style>
