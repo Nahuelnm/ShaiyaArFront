@@ -43,6 +43,7 @@ export default {
     background: url(../assets/frame-header.png);
     overflow-x:auto;
     background-repeat: no-repeat;
+
   }
   #download{
     color: black;

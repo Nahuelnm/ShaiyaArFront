@@ -1,32 +1,12 @@
 <template>
-<div id="body">
-  <div id="bar">
-    <registerBar msg="registerBar"/>
+  <div id="app">
+    <router-view />  
   </div>
-  <div id="banner">
-    <img alt="Vue logo" src="./assets/logo.png" id="logo">    
-  </div>
-  <div id="navBar">
-    <navBar msg="navBar"/>
-  </div>
-  <div id="components">    
-    <HelloWorld msg="Welcome to Your Vue.js App"/>   
-  </div>
-  <socialBar msg="socialBar"/>
-</div>
 </template>
 <script>
-import HelloWorld from './components/Home.vue';
-import registerBar from './components/registerBar.vue';
-import navBar from './components/navBar.vue';
-import socialBar from './components/socialBar'
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    navBar,
-    registerBar,
-    socialBar
   },
   mounted(){
     document.title = "Shaiya-Free MMORPG";
