@@ -11,7 +11,7 @@
       <th id="services">  SERVICIOS GM</th>
       <th></th>
       <th></th>
-      <th id="download">  DESCARGA</th>
+      <th id="download">Descargar</th>
     </tr>
     </table>
   </div>
@@ -31,17 +31,19 @@ export default {
     width: 90%;
     margin-top: 10px;
     padding: 0;
-    margin-left: 350px;
+    margin-left: 16.7%;
     line-height: 60px;
     color: white;
-    font-size: 14px;
+     font-size: 14px; 
     display: flex;
     text-align: left;
     justify-content: left;
     border-spacing: 32px;
     border-collapse: separate;
     background: url(../assets/frame-header.png);
+    overflow-x:auto;
     background-repeat: no-repeat;
+
   }
   #download{
     color: black;
