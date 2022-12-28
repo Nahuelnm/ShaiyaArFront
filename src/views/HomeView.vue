@@ -3,22 +3,34 @@
         <div id="bar">
           <registerBar msg="registerBar"/>
         </div>
+        
         <div id="banner">
           <img alt="Vue logo" src="../assets/logo.png" id="logo">    
         </div>
-        <div id="navBar">
-          <navBar msg="navBar"/>
-        </div>
-        <div id="components">  
-          <HelloWorld msg="Welcome to Your Vue.js App"/>   
-        </div>
+      <div id="home">
+          <div id="navBar">
+            <navBar msg="navBar"/>
+          </div>
+          <div id="storeBar">
+            <storeBar msg="storeBar"/>
+          </div>
+          <div id="components">  
+            <HelloWorld msg="Welcome to Your Vue.js App"/>   
+           </div>
+
+      </div>
         <socialBar msg="socialBar"/>
     </div>
+  <div >    
+
+
+  </div>
     </template>
     <script>
     import HelloWorld from '../components/Home.vue';
     import registerBar from '../components/registerBar.vue';
     import navBar from '../components/navBar.vue';
+    import storeBar from '../components/storeBar.vue';
     import socialBar from '../components/socialBar'
     export default {
       name: 'HomeView',
@@ -26,6 +38,7 @@
         HelloWorld,
         navBar,
         registerBar,
+        storeBar,
         socialBar
       }
     }
@@ -59,17 +72,25 @@
       border-radius: 10px;
     }
     #components{
-      margin-top: 20px;
-      margin-left: 20%;
+      margin-top: 0%;
+
+      height: 100%;
+      width: 55%;
+
       color: white;
       opacity: 1;
-      width: 55%;
-      border-radius: 10px;
       text-align: left;
       
     }
     #bar{
           background-size: 61% auto;
+    }
+    #home{
+      margin-left: 23%;
+      background: url(../assets/body_background.png);
+      background-size: 72% 100%;
+      background-repeat: no-repeat;
+      height: 100%;
     }
     </style>
     

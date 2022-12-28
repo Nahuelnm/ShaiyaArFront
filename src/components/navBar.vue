@@ -1,20 +1,16 @@
 <template>
-  <div id="bar">
-    <table id="tabla">
-    <tr id="container">
-      <th></th>
-      <th></th>
-      <th id="comunity">  COMUNIDAD</th>
-      <th id="about"> ACERCA DE SHAIYA</th>
-      <th id="multimedia">  MULTIMEDIA</th>
-      <th id="store"> TIENDA</th>
-      <th id="services">  SERVICIOS GM</th>
-      <th></th>
-      <th></th>
-      <th id="download">Descargar</th>
-    </tr>
-    </table>
-  </div>
+
+ <nav id="menu">
+  <ul id="menu_items">
+    <li>COMUNIDAD</li>
+    <li>ACERCA DE SHAIYA</li>
+    <li>MULTIMEDIA</li>
+    <li>TIENDA</li>
+    <li>SERVICIOS GM</li>
+    <li></li><li></li><li></li><li></li>
+    <li id="download">Descargar<br>Juega Gratis</li>
+  </ul>
+ </nav> 
 </template>
 
 <script>
@@ -27,28 +23,42 @@ export default {
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  #tabla{
-    width: 90%;
-    margin-top: 10px;
-    padding: 0;
-    margin-left: 16.7%;
-    line-height: 60px;
-    color: white;
-     font-size: 14px; 
-    display: flex;
-    text-align: left;
-    justify-content: left;
-    border-spacing: 32px;
-    border-collapse: separate;
+  #menu{
     background: url(../assets/frame-header.png);
-    overflow-x:auto;
+    background-size: 70% auto;
     background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffd797;
+    font-weight: bold;
+
+
+
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 0%;
+    line-height: 60px;
+    font-size: 14px;
+    overflow-x:auto;
+
 
   }
   #download{
-    color: black;
-    font-size: 25px;
-    text-align: right;
+    margin-top: 0;
+    line-height: 100%;
+    color: #ac3d1c;
+    margin: 200px;
+    font-size: 30px;
+  }
+  #menu_items{
+    display: flex;
+    list-style: none;
   }
 
+  #menu_items li{
+    border-radius: 3px;
+    margin: 10px 14px;
+  }
 </style>
