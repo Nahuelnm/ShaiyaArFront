@@ -1,30 +1,16 @@
 <template>
-  <div id="hello">
-
-      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+  <div id="separator">
+    
+  </div>
+  <div id="notice">
+    <h2>Noticias</h2>
+    <h5>Apertura del servidor Shaiya Argentina</h5>
+    <h2>Eventos</h2>
+    <h5>No hay eventos programados por el momento.</h5>
+  </div>
+  <div id="eventos">
 
   </div>
-  <iframe id ="video" width="365" height="300" src="https://www.youtube.com/embed/gtufTJBJ2ng" frameborder="0" ></iframe>
-  <div id="hello">
-
-<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-
-</div>
-<div id="hello">
-
-<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-
-</div>
-<div id="hello">
-
-<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-
-</div>
-<div id="hello">
-
-<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-
-</div>
 </template>
 
 <script>
@@ -55,32 +41,12 @@ p{
   margin: 0 10px;
 }
 
-#intoBlock{
-    background: url(../assets/08-13-shaiya-intro-block.png);
-    background-repeat: no-repeat;
-    width: 100%;
-    display: flex;
-    color: #ffd797;
-    height: 100%;
+#notice{
+  width: 600px;
+  height: 1000px;
+  margin-left: 4%;
+  font-weight: bold;
+  color: #ffd797;
+  background-repeat: no-repeat;
 }
-#cell{
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  
-}
-#conteineer{
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
-  width: 80%;
-  text-align: left;
-  display: flex;
-}
-
-#video{
-  border-radius: 20px;
-  opacity:1;
-}
-
 </style>

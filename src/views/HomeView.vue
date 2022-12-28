@@ -11,6 +11,10 @@
           <div id="navBar">
             <navBar msg="navBar"/>
           </div>
+          <div id="introblock">
+            <introblock msg="introblock"/>
+            
+          </div>
           <div id="storeBar">
             <storeBar msg="storeBar"/>
           </div>
@@ -31,12 +35,14 @@
     import registerBar from '../components/registerBar.vue';
     import navBar from '../components/navBar.vue';
     import storeBar from '../components/storeBar.vue';
+    import introblock from '../components/introblock.vue';
     import socialBar from '../components/socialBar'
     export default {
       name: 'HomeView',
       components: {
         HelloWorld,
         navBar,
+        introblock,
         registerBar,
         storeBar,
         socialBar
@@ -70,6 +76,9 @@
     #registro{
       text-align: right;
       border-radius: 10px;
+    }
+    #introBlock{
+      width: 10%;
     }
     #components{
       margin-top: 0%;
