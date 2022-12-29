@@ -11,8 +11,8 @@
       <th></th>
       <th></th>
       <th></th>
-      <th id="singUp"><button>Registrarse!</button> </th>
-      <th id="login"><button>Iniciar sesión</button> </th>    
+      <th id="singUp"><button id="button">¡Regístrate!</button> </th>
+      <th id="login"><button id="button">Iniciar sesión</button> </th>    
       <th></th>
     </tr>
     </table>
@@ -42,6 +42,17 @@ export default {
     border-spacing: 10px;
     border-collapse: separate;
     background-repeat: no-repeat;
-}
 
+}
+#button{
+  background: linear-gradient(#ffffff, #c0bfbc);
+  border-color: dimgray;
+  font-size: 13.6px;
+  padding-top:4.5px; 
+  padding-bottom:4.5px;
+  border-radius: 4px;
+  border-width:1px;
+  font-weight: bold;
+  
+}
 </style>

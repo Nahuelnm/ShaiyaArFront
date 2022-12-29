@@ -51,7 +51,7 @@ img{
 }
 #components{
   margin-top: 20px;
-  margin-left: 20%;
+  margin-left: 5%;
   color: white;
   opacity: 1;
   width: 55%;

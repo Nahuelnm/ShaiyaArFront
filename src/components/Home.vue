@@ -1,36 +1,22 @@
 <template>
-  <div class="hello">
-    <table>
-      <tr>
-        <td id="card"> 
-          <br>
-          <p><strong>SHAIYA EPISODIO 5: RELIC OF MYSTRA</strong></p><br><br>
-          <p>Shaiya es un impactante y sensacional juego MMORPG de fantasía que se puede jugar de manera gratuita y que sumerge a los jugadores en una guerra masiva entre las fuerzas de la Luz y de la Oscuridad.</p>
-          <br><p> Shaiya permite que los jugadores busquen la gloria jugando solos o en forma colaborativa, muchos de ellos eligiendo formar poderosos gremios, capaces de atacar y vencer hasta los más grandes y feroces monstruos de Teos. Mientras los jugadores superan los retos, ellos son recompensados con nuevas armas y armaduras, que establece sus habilidades y destrezas para convertirse en poderes dominantes de Shaiya.</p>
-        </td>     
-        <td id="card"> 
-          <iframe id ="video" width="365" height="300" src="https://www.youtube.com/embed/gtufTJBJ2ng" frameborder="0" ></iframe>
-        </td>
-      </tr>
-      <tr>
-      <td>
-      </td>
-      </tr>
-    </table>
-    <div id="card">
-    <br>
-        <p><strong>Combate Competitivo de Jugador vs. Jugador (PvP)</strong></p><br>
-        <p>Derrota a otros jugadores para subir de rango y avanzar en la jerarquía de la facción. Obtén títulos prestigiosos, bonificaciones de stats, y beneficios adicionales que impacten a toda tu facción.</p>
-        <br>
+  <div id="separator">
+    
+  </div>
+  <div id="notice">
+    <div><img alt="block news" src="../assets/08-13-shaiya-block-news.png" id="blockNews">   </div>
+    <h2>Noticias</h2>
+    <h5>Apertura del servidor Shaiya Argentina</h5>
+    <div>
+      <hr>  <br>
     </div>
-    <div id="card">
-    <br>
-        <p><strong>Bendición de la Diosa</strong></p><br>
-    <p>Únete a la asombrosa y masiva lucha para controlar el continente y compiter por la Bendición de la Diosa; un buff de amplia-facción que afecta a todos los miembros de tu facción, ¡aun cuando no participes en PvP!</p>
-    <br><br>
+    <h2>Eventos</h2>
+    <h5>No hay eventos programados por el momento.</h5>
+    <div>
+      <hr>  <br>
     </div>
+  </div>
+  <div id="eventos">
 
-    <img alt="pvp" src="../assets/pvp.jpeg" id="pvp">
   </div>
 </template>
 
@@ -45,9 +31,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
-}
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -57,28 +41,36 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: #ffd797;
 }
-.Hello{
-  text-align:left;
-}
+
 p{
-  margin: 0 10px;
+  margin: 0 px;
 }
-#card{
-    width: 100%;
-    height: 100%;
-    margin-top: 20px;
-    background: url(../assets/card.png);
-    overflow-x:auto;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-    justify-content: center;
-    opacity:0.9;
+h2 {
+  line-height: 0.1em;
+  color: #74110f;
+  margin-top: 0.1px;
 }
-#video{
-  border-radius: 20px;
-  opacity:1;
+h5 {
+  color: #ffc861;
+  margin-top: 50px;
+}
+#notice{
+  width: 600px;
+  height: 1000px;
+  margin-left: 4%;
+  font-weight: bold;
+  color: #ffd797;
+  background-repeat: no-repeat;
+}
+hr {
+  border-color: #3b2808;
+  width: 90%;
+  margin-left: 0.1%;
+}
+#blockNews {
+  margin-top: 30px;
+  width: 96%;
 }
 </style>
