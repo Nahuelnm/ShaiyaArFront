@@ -1,16 +1,16 @@
 <template>
 <div id="introblock">  
   <div id="item1">  
-    ¡Gana un Paquetazo!
+  <h2> ¡Gana un Paquetazo!</h2>
    <p id="description">¡Gasta APs por la 1ª vez y gana <br> gratis el Paquete Primera Compra!</p>
    <div id="item2">  
-    Historia
+    <h2>  Historia </h2> 
     <p id="description">Entérate de todo acerca del <br>mundo de Shaiya</p>
 
 
   </div>
   <div id="item3">  
-    Preguntas/Respuestas
+    <h2> Preguntas/Respuestas</h2>
     <p id="description">Halla aquí respuestas a tus <br>preguntas de Shaiya...</p>
 
   </div>
@@ -52,24 +52,33 @@ export default {
   margin-top: 20px;
   padding:0%;
   font-size: 10px;
+  line-height: 0.1em;
   text-align: left;
   float:left;
 }
 #item2 {
   margin-left: 0%;
-  margin-top: 50px;
+  margin-top: 55px;
   font-size: 10px;
   text-align: left;
+  line-height: 0.1em;
 }
 #item3 {
   margin-left: 0%;
-  margin-top: 33px;
+  margin-top: 35px;
   font-size: 10px;
   text-align: left;
+  line-height: 0.1em;
 }
 #video {
-  margin-top: 5px;
-  margin-right: 2%;
+  margin-top: 4px;
+  margin-right: 0.8%;
+  width: 390px;
+  height: 319px;
   float:right;
+}
+p {
+  color: #fff4d8;
+  line-height: 1.2;
 }
 </style>

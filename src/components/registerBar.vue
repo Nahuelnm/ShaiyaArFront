@@ -42,6 +42,7 @@ export default {
     border-spacing: 10px;
     border-collapse: separate;
     background-repeat: no-repeat;
+
 }
 #button{
   background: linear-gradient(#ffffff, #c0bfbc);
@@ -51,6 +52,7 @@ export default {
   padding-bottom:4.5px;
   border-radius: 4px;
   border-width:1px;
+  font-weight: bold;
   
 }
 </style>
