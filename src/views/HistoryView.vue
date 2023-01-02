@@ -11,16 +11,9 @@
           <div id="navBar">
             <navBar msg="navBar"/>
           </div>
-          <div id="introblock">
-            <introblock msg="introblock"/>
-            
+          <div id="aboutSh">
+            <aboutSh msg="aboutSh"/>
           </div>
-          <div id="storeBar">
-            <storeBar msg="storeBar"/>
-          </div>
-          <div id="components">  
-            <HelloWorld msg="Welcome to Your Vue.js App"/>   
-           </div>
 
       </div>
         <socialBar msg="socialBar"/>
@@ -31,20 +24,16 @@
   </div>
     </template>
     <script>
-    import HelloWorld from '../components/Home.vue';
     import registerBar from '../components/registerBar.vue';
     import navBar from '../components/navBar.vue';
-    import storeBar from '../components/storeBar.vue';
-    import introblock from '../components/introblock.vue';
+    import aboutSh from '../components/history.vue';
     import socialBar from '../components/socialBar'
     export default {
-      name: 'HomeView',
+      name: 'HistoryView',
       components: {
-        HelloWorld,
         navBar,
-        introblock,
         registerBar,
-        storeBar,
+        aboutSh,
         socialBar
       }
     }

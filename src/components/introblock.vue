@@ -4,7 +4,7 @@
   <h2> ¡Gana un Paquetazo!</h2>
    <p id="description">¡Gasta APs por la 1ª vez y gana <br> gratis el Paquete Primera Compra!</p>
    <div id="item2">  
-    <h2>  Historia </h2> 
+    <a v-bind:href="'/history'"> <h2>  Historia </h2> </a>
     <p id="description">Entérate de todo acerca del <br>mundo de Shaiya</p>
 
 
@@ -80,5 +80,9 @@ export default {
 p {
   color: #fff4d8;
   line-height: 1.2;
+}
+a{
+  color: #ffd797;
+  text-decoration:none;
 }
 </style>
