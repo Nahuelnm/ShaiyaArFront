@@ -52,7 +52,5 @@ export default {
   padding-bottom:4.5px;
   border-radius: 4px;
   border-width:1px;
-  font-weight: bold;
-  
 }
 </style>
