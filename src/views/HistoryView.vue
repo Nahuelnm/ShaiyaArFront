@@ -45,7 +45,6 @@
     }
     #registro{
       height: 45px;
-      background-color: rgb(27, 75, 172);
       justify-content: center;
     }
     #banner{
