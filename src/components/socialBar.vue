@@ -15,7 +15,6 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #registro{
-  background-color: rgb(27, 75, 172);
     padding: 0;
     line-height: 40px;
     color: white;

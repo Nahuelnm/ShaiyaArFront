@@ -56,11 +56,12 @@
     }
     #registro{
       height: 45px;
-      background-color: rgb(27, 75, 172);
       justify-content: center;
+      text-align: right;
+      border-radius: 10px;
     }
     #banner{
-      margin-top:50px;
+      margin-top:3%;
       width: 100%;
     }
     #body{
@@ -72,10 +73,6 @@
      background-repeat: no-repeat;
      background-color:black;
      border-radius: 10px;
-    }
-    #registro{
-      text-align: right;
-      border-radius: 10px;
     }
     #introBlock{
       width: 10%;
