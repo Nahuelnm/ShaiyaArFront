@@ -11,7 +11,8 @@
       <th></th>
       <th></th>
       <th></th>
-      <th id="singUp"><button id="button">¡Regístrate!</button> </th>
+
+      <th id="singUp"><a v-bind:href="'/signup'"><button id="button">¡Regístrate!</button></a></th>
       <th id="login"><button id="button">Iniciar sesión</button> </th>    
       <th></th>
     </tr>
@@ -30,10 +31,10 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #registro{
-  background-color: rgb(27, 75, 172);
     padding: 0;
-    width:100%;
+    width:50%;
     line-height: 40px;
+    margin-left: 27%;
     color: white;
     font-size: 14px;
     display: flex;
