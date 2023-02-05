@@ -1,16 +1,25 @@
 <template>
+ <div id="menu">
+    <div id="community">
+      <H5>COMUNIDAD</H5>
+    </div>
+    <div id="about">
+      <H5>ACERCA DE SHAIYA</H5>
+    </div>
+    <div id="multimedia">
+      <H5>MULTIMEDIA</H5>
+    </div>
+    <div id="store">
+      <H5>ALMACÉN DE ARTÍCULOS</H5>
+    </div>
+    <div id="store">
+      <H5>SERVICIOS GM</H5>
+    </div>
+    <div id="download">
+      <H1>Descargar</H1><H3>Juega Gratis</H3>
+    </div>
 
- <nav id="menu">
-  <ul id="menu_items">
-    <li>COMUNIDAD</li>
-    <li>ACERCA DE SHAIYA</li>
-    <li>MULTIMEDIA</li>
-    <li>TIENDA</li>
-    <li>SERVICIOS GM</li>
-    <li></li><li></li><li></li><li></li>
-    <li id="download">Descargar<br>Juega Gratis</li>
-  </ul>
- </nav> 
+  </div>
 </template>
 
 <script>
@@ -25,40 +34,42 @@ export default {
 <style scoped>
   #menu{
     background: url(../assets/frame-header.png);
-    background-size: 70% auto;
+    background-size: 100% 90%;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 70%;
+    height:110px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     color: #ffd797;
     font-weight: bold;
-
-
-
+    vertical-align: middle;
     margin-top: 10px;
-    padding: 10px;
+    padding: 0.2%;
     margin-left: 0%;
-    line-height: 60px;
-    font-size: 14px;
     overflow-x:auto;
+    line-height: 120%;
 
+  }
+  #community{
+    margin-left:5%;
+
+  }
+  #about{
+    margin-left:2%;
+
+  }
+  #multimedia{
+    margin-left:2%;
+
+  }
+  #store{
+    margin-left:2%;
 
   }
   #download{
-    margin-top: 0;
-    line-height: 100%;
+    margin-left:9.2%;
+    text-align: center;
     color: #ac3d1c;
-    margin: 200px;
-    font-size: 30px;
-  }
-  #menu_items{
-    display: flex;
-    list-style: none;
-  }
-
-  #menu_items li{
-    border-radius: 3px;
-    margin: 10px 14px;
+    line-height: 0.1em;
   }
 </style>
